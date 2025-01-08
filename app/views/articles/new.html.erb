@@ -1,11 +1,5 @@
-<% content_for :title, "New article" %>
-
 <h1>New article</h1>
 
-<%= render "form", article: @article %>
+<%= render 'form' %>
 
-<br>
-
-<div>
-  <%= link_to "Back to articles", articles_path %>
-</div>
+<%= link_to 'Return to Articles Listing', articles_path %>
