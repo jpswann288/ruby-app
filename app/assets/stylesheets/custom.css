@@ -48,6 +48,10 @@ body {
   justify-self: center;
 }
 
+.text-align-left {
+  text-align: left;
+}
+
 .text-align-center {
   text-align: center;
 }
