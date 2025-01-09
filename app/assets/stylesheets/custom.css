@@ -31,14 +31,6 @@
   padding-top: 50px;
 }
 
-footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-    background-color: #f0f0f0;
-}
-
 html,
 body {
   height: 100%;
@@ -62,8 +54,10 @@ body {
 }
 
 #sticky-footer {
-  flex-shrink: none;
+  flex-shrink: 0;
   align-content: center;
+  margin-top: auto;
+  height: 100px;
 }
 
 /* pagination styling */
